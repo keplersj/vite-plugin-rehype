@@ -1,0 +1,37 @@
+{
+  "name": "vite-plugin-rehype",
+  "version": "0.1.0",
+  "description": "Vite plugin for transforming HTML using Rehype",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keplersj/vite-plugin-rehype.git"
+  },
+  "keywords": [
+    "vite-plugin",
+    "rehype",
+    "html"
+  ],
+  "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keplersj/vite-plugin-rehype/issues"
+  },
+  "homepage": "https://github.com/keplersj/vite-plugin-rehype#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.7"
+  },
+  "dependencies": {
+    "rehype-parse": "^8.0.3",
+    "rehype-stringify": "^9.0.2",
+    "unified": "^10.1.1"
+  }
+}
